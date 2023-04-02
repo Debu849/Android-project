@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vote4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        app:cardCornerRadius="30dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        android:layout_marginTop="10dp"
+        android:elevation="20dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUR VOTE OUR RIGHTS"
+            android:layout_gravity="center"
+            android:layout_margin="05dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center_horizontal"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="05dp"
+            android:text="ON-CLICK VOTE"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="WELCOME "
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:text="Already an user?"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/signup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"
+        android:text="Create your ID"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"/>
+    <Button
+        android:id="@+id/administrator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTRATOR"
+        android:layout_marginTop="70dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/administrator1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="Please login here!"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
